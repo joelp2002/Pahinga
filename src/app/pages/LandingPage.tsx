@@ -36,7 +36,7 @@ export function LandingPage() {
       <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1512356181113-853a150f1aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+            src="/images/cottage-exterior.jpg"
             alt="AML's Resort"
             className="w-full h-full object-cover"
           />
@@ -64,7 +64,7 @@ export function LandingPage() {
           <Card className="overflow-hidden hover:shadow-xl transition-shadow">
             <div className="h-64 overflow-hidden">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1629711129507-d09c820810b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="/images/pool-ground.jpg"
                 alt="Swimming Pool"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -95,7 +95,7 @@ export function LandingPage() {
           <Card className="overflow-hidden hover:shadow-xl transition-shadow">
             <div className="h-64 overflow-hidden">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1765124540398-d717b5b06f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="/images/cottage-exterior.jpg"
                 alt="Cottages"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -125,7 +125,7 @@ export function LandingPage() {
           <Card className="overflow-hidden hover:shadow-xl transition-shadow">
             <div className="h-64 overflow-hidden">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1762765684665-6b6855bb6fe6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="/images/event-hall.jpg"
                 alt="Event Hall"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
