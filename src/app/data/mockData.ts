@@ -59,6 +59,7 @@ export const services: Service[] = [
     available: true,
     entranceFeeAdult: 125,
     entranceFeeChildSenior: 100,
+    image: '/images/pool-aerial.jpg',
     amenities: [
       'Lifeguard',
       'Pool Toys',
@@ -76,6 +77,7 @@ export const services: Service[] = [
     available: true,
     entranceFeeAdult: 125,
     entranceFeeChildSenior: 100,
+    image: '/images/pool-ground.jpg',
     amenities: [
       'Shallow Water',
       'Water Slides',
@@ -90,6 +92,7 @@ export const services: Service[] = [
     capacity: 8,
     pricePerDay: 400,
     available: true,
+    image: '/images/cottage-exterior.jpg',
     amenities: ['Tables & Chairs', 'Electric Outlet', 'Grill Area'],
   },
   {
@@ -99,6 +102,7 @@ export const services: Service[] = [
     capacity: 10,
     pricePerDay: 450,
     available: true,
+    image: '/images/cottage-interior.jpg',
     amenities: ['Tables & Chairs', 'Electric Outlet', 'Grill Area'],
   },
   {
@@ -117,6 +121,7 @@ export const services: Service[] = [
     capacity: 150,
     pricePerDay: 5500,
     available: true,
+    image: '/images/event-hall.jpg',
     paxRates: hallPaxRates,
     inclusions: [...EVENT_HALL_INCLUSIONS],
     notes: [...EVENT_HALL_NOTES],

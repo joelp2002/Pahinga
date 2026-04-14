@@ -17,6 +17,7 @@ const services = [
     available: true,
     entranceFeeAdult: 125,
     entranceFeeChildSenior: 100,
+    image: '/images/pool-aerial.jpg',
     amenities: [
       'Lifeguard',
       'Pool Toys',
@@ -34,6 +35,7 @@ const services = [
     available: true,
     entranceFeeAdult: 125,
     entranceFeeChildSenior: 100,
+    image: '/images/pool-ground.jpg',
     amenities: [
       'Shallow Water',
       'Water Slides',
@@ -48,6 +50,7 @@ const services = [
     capacity: 8,
     pricePerDay: 400,
     available: true,
+    image: '/images/cottage-exterior.jpg',
     amenities: ['Tables & Chairs', 'Electric Outlet', 'Grill Area'],
   },
   {
@@ -57,6 +60,7 @@ const services = [
     capacity: 10,
     pricePerDay: 450,
     available: true,
+    image: '/images/cottage-interior.jpg',
     amenities: ['Tables & Chairs', 'Electric Outlet', 'Grill Area'],
   },
   {
@@ -66,6 +70,7 @@ const services = [
     capacity: 15,
     pricePerDay: 700,
     available: true,
+    image: '/images/cottage-exterior.jpg',
     amenities: ['Tables & Chairs', 'Electric Outlet', 'Grill Area'],
   },
   {
@@ -75,6 +80,7 @@ const services = [
     capacity: 150,
     pricePerDay: 5500,
     available: true,
+    image: '/images/event-hall.jpg',
     lightsAndSoundsFee: 1000,
     paxRates: [
       { minPax: 30, maxPax: 40, price: 5500 },
