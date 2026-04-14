@@ -85,14 +85,6 @@ export function LoginPage() {
               </Button>
             </form>
 
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <p className="text-sm font-semibold text-blue-900 mb-2">Demo Credentials:</p>
-              <div className="text-xs space-y-1 text-gray-700">
-                <p><strong>Admin:</strong> username: admin | password: admin123</p>
-                <p><strong>Employee:</strong> username: employee | password: employee123</p>
-              </div>
-            </div>
-
             <div className="mt-4 text-center">
               <p className="text-sm text-gray-600">
                 Don't have an account?{' '}
